@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SideBar</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/content.css">
+    <link rel="stylesheet" href="./assets/css/hamburger-button.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./assets/css/flip-card.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="sidebar__logo">
+            <div class="sidebar__logo-container">
+                <i class='sidebar__logo-icon bx bxl-vuejs'></i>
+                <div class="sidebar__logo-text">ictorDesign</div>
+            </div>
+            <!-- <i class="bx bx-menu" id="btn"></i> -->
+            <div class="menu-btn">
+                <div class="menu-btn__burger"></div>
+            </div>
+        </div>
+        <ul class="sidebar__nav-list">
+            <li class="sidebar__nav-item sidebar__nav-item--searchBox">
+                <a class="sidebar__nav-link sidebar__nav-link--non-hover" href="#">
+                    <i class='sidebar__nav-icon sidebar__nav-search-icon bx bx-search-alt' ></i>
+                    <input class="sidebar__nav-input" type="text" placeholder="Search...">
+                </a>
+                <span class="tooltip">Search</span>
+            </li>
+            <li class="sidebar__nav-item">
+                <a class="sidebar__nav-link" href="#">
+                    <i class='sidebar__nav-icon bx bx-grid-alt' ></i>
+                    <span class="sidebar__nav-text">Dashboard</span>
+                </a>
+                <span class="tooltip">Dashboard</span>
+            </li>
+            <li class="sidebar__nav-item">
+                <a class="sidebar__nav-link" href="#">
+                    <i class='sidebar__nav-icon bx bxs-user-circle' ></i>
+                    <span class="sidebar__nav-text">User</span>
+                </a>
+                <span class="tooltip">User</span>
+            </li>
+            <li class="sidebar__nav-item">
+                <a class="sidebar__nav-link" href="#">
+                    <i class='sidebar__nav-icon bx bx-chat' ></i>
+                    <span class="sidebar__nav-text">Messages</span>
+                </a>
+                <span class="tooltip">Messages</span>
+            </li>
+            <li class="sidebar__nav-item">
+                <a class="sidebar__nav-link" href="#">
+                    <i class='sidebar__nav-icon bx bx-chat' ></i>
+                    <span class="sidebar__nav-text">Analytics</span>
+                </a>
+                <span class="tooltip">Analytics</span>
+            </li>
+            <li class="sidebar__nav-item">
+                <a class="sidebar__nav-link" href="#">
+                    <i class='sidebar__nav-icon bx bx-file-blank' ></i>
+                    <span class="sidebar__nav-text">File Manager</span>
+                </a>
+                <span class="tooltip">File Manager</span>
+            </li>
+            <li class="sidebar__nav-item">
+                <a class="sidebar__nav-link" href="#">
+                    <i class='sidebar__nav-icon bx bx-wallet-alt' ></i>
+                    <span class="sidebar__nav-text">Wallet</span>
+                </a>
+                <span class="tooltip">Wallet</span>
+            </li>
+            <li class="sidebar__nav-item">
+                <a class="sidebar__nav-link" href="#">
+                    <i class='sidebar__nav-icon bx bxs-calendar' ></i>
+                    <span class="sidebar__nav-text">Calendar</span>
+                </a>
+                <span class="tooltip">Calendar</span>
+            </li>
+        </ul>
+        <div class="sidebar__profile">
+            <div class="sidebar__profile-container">
+                <div class="sidebar__profile-details">
+                    <img src="./assets/img/profile.jpg" alt="" class="sidebar__profile-img">
+                    <div class="sidebar__profile-info">
+                        <div class="sidebar__profile-name">Victor Nguyen</div>
+                        <div class="sidebar__profile-job">Web Designer</div>
+                    </div>
+                </div>
+                <div class="sidebar__btn-container">
+                    <i class='sidebar__log-out-btn bx bx-log-out' id="log_out" ></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Home Content -->
+    <script src="./assets/scripts/script.js"></script>
+</body>
+</html>
